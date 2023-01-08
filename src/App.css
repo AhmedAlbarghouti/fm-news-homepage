@@ -1,0 +1,80 @@
+.App {
+	font-family: "Inter";
+	display: flex;
+	flex-direction: column;
+	gap: 1.75rem;
+	padding: 1.5rem 1rem;
+}
+
+.fs-body {
+	font-size: 0.938rem;
+}
+.fs-xs {
+	font-size: 1.125rem;
+}
+.fs-s {
+	font-size: 1.25rem;
+}
+.fs-m {
+	font-size: 2rem;
+}
+.fs-l {
+	font-size: 2.5rem;
+}
+
+.fw-400 {
+	font-weight: 400;
+}
+.fw-700 {
+	font-weight: 700;
+}
+.fw-800 {
+	font-weight: 800;
+}
+
+.primary-red {
+	color: var(--primary-red);
+}
+
+.primary-orange {
+	color: var(--primary-orange);
+}
+
+.neutral-off-white {
+	color: var(--neutral-off-white);
+}
+
+.neutral-grayish-blue {
+	color: var(--neutral-grayish-blue);
+}
+
+.neutral-dark-grayish-blue {
+	color: var(--neutral-dark-grayish-blue);
+}
+
+.neutral-dark-blue {
+	color: var(--neutral-dark-blue);
+}
+
+.bg-primary-red {
+	background-color: var(--primary-red);
+}
+
+.bg-neutral-dark-blue {
+	background-color: var(--neutral-dark-blue);
+}
+
+@media only screen and (min-width: 1110px) {
+	body {
+		width: 100%;
+	}
+	.App {
+		width: 80%;
+		margin: 0 auto;
+		max-width: 1110px;
+	}
+
+	.fs-l {
+		font-size: 3.5rem;
+	}
+}
